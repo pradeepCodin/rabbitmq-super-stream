@@ -40,7 +40,7 @@ const publisher = await client.declareSuperStreamPublisher(
 // Test messages
 const messages = [
   { email: "patientA@example.com", event: "Admitted" },
-  { email: "patientA@test.com", event: "Discharged" },
+  { email: "patientA@example.com", event: "Discharged" },
   { email: "patientB@test.com", event: "Admitted" },
 ];
 
